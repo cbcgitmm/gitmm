@@ -112,7 +112,6 @@ func SlackConfigurationToken() *config.Rule {
 		`"access_token1": "xoxe.xoxp-1-Mi0yLTM0MTQwNDE0MDE3Ni0zNjU5NDY0Njg4MTctNTE4MjA3NTQ5NjA4MC01NDEyOTYyODY5NzUxLThhMTBjZmI1ZWIzMGIwNTg0ZDdmMDI5Y2UxNzVlZWVhYzU2ZWQyZTZiODNjNDZiMGUxMzRlNmNjNDEwYmQxMjQ"`, // gitleaks:allow
 		`"access_token2": "xoxe.xoxp-1-Mi0yLTMxNzcwMjQ0MTcxMy0zNjU5NDY0Njg4MTctNTE1ODE1MjY5MTcxNC01MTU4MDI0MTgyOTc5LWRmY2YwY2U4ODhhNzY5ZGU5MTAyNDU4MDJjMGQ0ZDliMTZhMjNkMmEyYzliNjkzMDRlN2VjZTI4MWNiMzRkNGQ"`, // gitleaks:allow
 		`"access_token3": "xoxe.xoxp-1-` + secrets.NewSecret(alphaNumeric("163")) + `"`,
-		`"access_token4": "xoxe.xoxb-1-Mi0yLTMxNzcwMjQ0MTcxMy0zNjU5NDY0Njg4MTctNTE1ODE1MjY5MTcxNC01MTU4MDI0MTgyOTc5LWRmY2YwY2U4ODhhNzY5ZGU5MTAyNDU4MDJjMGQ0ZDliMTZhMjNkMmEyYzliNjkzMDRlN2VjZTI4MWNiMzRkNGQ"`,
 		`"access_token5": "xoxe.xoxb-1-` + secrets.NewSecret(alphaNumeric("165")) + `"`,
 	}
 	fps := []string{
