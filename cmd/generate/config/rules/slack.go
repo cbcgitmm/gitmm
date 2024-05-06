@@ -206,7 +206,6 @@ func SlackLegacyWorkspaceToken() *config.Rule {
 		`"refresh_token2": ` + fmt.Sprintf(`"xoxr-%s`, secrets.NewSecret(alphaNumeric("12"))),
 	}
 	fps := []string{
-		// "xoxa-faketoken",
 		// "xoxa-access-token-string",
 		// "XOXa-nx991k",
 		"https://github.com/xoxa-nyc/xoxa-nyc.github.io/blob/master/README.md",
